@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="App.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/horizontalvertical.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
+</head>
+
+<body>
+    <!-- header -->
+    <header class="transparent-unfixed">
+        <div class="nav-logo"> <a href="/" aria-label=""><img src="./assets/img/logo.svg" alt="logo"></a>
+            <div class="nav-language"><button class="btn-lang btn-link text-primary d-none"> <a href="/">Superfood
+                        Shakes</a> </button><button class="btn-lang btn-link text-primary d-none"> <a href="/">About</a>
+                </button>
+                <div class="btn-nav btn-link d-flex">
+                    <div class="btn-nav btn-link d-flex"><input type="checkbox" id="side-nav-btn">
+                        <div class="side-bar-navigation">
+                            <ul class="navigation d-flex">
+                                <div class="navigation-header"><span><img src="./assets/img/icons/close.svg"
+                                            alt="Cart"></span></div>
+                                <li> <a href="/terms">Terms of Service</a> </li>
+                                <li> <a href="/privacy-policy">Privacy Policy</a> </li>
+                                <li> <a href="/cookie-policy">Cookie Policy</a> </li>
+                                <li> <a href="/refund-policy">Refund Policy</a> </li>
+                                <li class="border-none"> <a href="/subscription-policy">Subscription Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- How to loose weight -->
+    <div class="checkout-page text-white page-gradient">
+        <div class="checkout-container pb-30">
+            <div class="fw-bolder mxm-24">
+                <div class="align-center mb-10 fs-34 mfs-24 text-center pb-20 ptm-20">How to <span
+                        class="non-break">Lose Weight</span></div>
+            </div>
+            <div class="body-transformation">
+                <div class="body-transformation-header">
+                    <div class="w-50">
+                        <div class="body-trans-frame"><img src="./assets/img/male/M_20_To_24.png" alt=""></div>
+                    </div>
+                    <div class="w-50">
+                        <div class="body-trans-frame"><img src="./assets/img/male/M_10_To_14.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="mw-50p w-100">
+                        <div class="body-transformation">
+                            <div class="body-trans-header text-center text-darkbg d-flex">
+                                <div class="mw-100p w-50 d-flex justify-content-center intro"><span
+                                        class="valign-m my-a">Now</span></div>
+                            </div>
+                        </div>
+                        <div class="body-trans-body d-flex bg1">
+                            <div class="w-100">
+                                <div class="fw-bold mb-5">Body fat</div>
+                                <div class="color4 fs-18 fw-bold mb-20">20-24%</div>
+                                <div class="fw-bold mb-5">Body muscles</div>
+                                <div class="progress-bar-trans"><span
+                                        class="active"></span><span></span><span></span><span></span><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mw-50p highlighted bg4 w-100">
+                        <div class="body-trans-header text-center text-darkbg d-flex">
+                            <div class="w-50 d-flex justify-content-center mw-100p intro"><span
+                                    class="valign-m my-a"><span class="fw-bolder">Goal</span></span></div>
+                        </div>
+                        <div class="body-trans-body d-flex">
+                            <div class="w-100">
+                                <div class="fw-bold mb-5">Body fat</div>
+                                <div class="theme-color fs-18 fw-bold mb-20">10-14%</div>
+                                <div class="fw-bold mb-5">Body muscles</div>
+                                <div class="progress-bar-trans"><span class="active"></span><span
+                                        class="active"></span><span class="active"></span><span
+                                        class="active"></span><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="fs-12 color2 text-center">*The image is not intended to represent the user. Results vary per
+                    person and are not guaranteed.</p>
+            </div>
+        </div>
+        <!-- personal Summary -->
+        <div class="pt-30 ptm-0 pb-30">
+            <div class="checkout-container">
+                <div class="fw-bolder mxm-24">
+                    <div class="align-center my-25 fs-34 mfs-24 text-center">Personal Summary <span
+                            class="non-break">Based on Your Answers</span></div>
+                </div>
+                <div class="top-three-boxes">
+                    <div class="bg1 current-mbi text-primary" data-aos="fade-up">
+                        <div class="d-flex align-center mb-10"><span class="fw-bold">Your Current BMI</span><span
+                                class="ms-auto"><button id="myBtn">
+                                    <div class="info-icon"></div>
+                                </button></span></div>
+                        <h2><span class="count">20.7</span> BMI </h2>
+                        <div class="progress-bar2">
+                            <div class="mark"><img src="./assets/img/triangle.svg" alt=""></div>
+                        </div>
+                        <div class="d-flex mt-10"> <span>Underweight</span> <span class="ms-auto">Obese</span> </div>
+                        <div class="fw-bold fs-18 mt-20 mb-5 theme-color">Normal</div>
+                        <div class="fs-12">Your BMI came calculated in the bottom 20% of comparable individuals.</div>
+                    </div>
+                    <div class="d-flex recommended-items mt-20" data-aos="fade-up">
+                        <div class="recommended-item bg1 current-mbi text-primary"> <span
+                                class="recommended-label d-none"> AI Confidence: High </span>
+                            <div class="d-flex mb-20"> <i class="checkout-icon"><img class="mh-36 mw-36"
+                                        src="./assets/img/icons/lightning.svg"></i>
+                                <div class="mb-auto">
+                                    <div class="fw-bold mb-5">Your calories burned at rest</div>
+                                    <h3><span class="count">1355</span><span class="fs-20"> calories</span> </h3>
+                                </div>
+                            </div>
+                            <div class="water-level">
+                                <div class="d-flex water-glass full"> <span></span> <span></span> <span></span>
+                                    <span></span> <span></span> <span></span> <span></span> <span></span>
+                                </div>
+                                <div class="d-flex mt-5 water-glass-emty"> <span></span> <span></span> <span></span>
+                                    <span></span> <span></span> <span></span> <span></span> <span></span>
+                                </div>
+                            </div>
+                            <div class="fs-12 mt-10"> Your calories burned at rest are slightly lower than comparable
+                                individuals.</div>
+                        </div>
+                        <div class="recommended-item bg1 current-mbi text-primary d-flex flex-col">
+                            <div class="d-flex mb-20 mb-auto"> <i class="checkout-icon"><img class="p-10"
+                                        src="./assets/img/icons/clipboard-heart.svg"></i>
+                                <div class="mb-auto">
+                                    <div class="fw-bold mb-5">Your lifestyle type</div>
+                                    <h3><span class="fs-28">Lightly Active</span></h3>
+                                </div>
+                            </div>
+                            <div class="fs-12 mt-auto"> Based on the physical activities you suggested, your estimated
+                                caloric burn will be a bit higher than your calories burned at rest.</div>
+                        </div>
+                        <div class="recommended-item bg4 current-mbi text-primary highlighted d-flex">
+                            <div class="valign-m my-a me-10 pr-10 mw-50p">
+                                <div class="mb-auto theme-color mb-5"><span><span class="count fs-44">1863</span><span
+                                            class="change-text"> cal<span class="mob-d-none">ories</span></span></span>
+                                </div>
+                                <div class="fw-bold"> Estimates caloried used per day</div>
+                            </div>
+                            <div class="fs-12 mw-50p ms-auto my-a">In order to reach your target weight, you can either
+                                significantly increase your daily exercise to burn more calories, or consider
+                                restricting your calorie intake (how much you eat).</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- loosing weight -->
+        <div class="checkout-container pt-30 ptm-0 pb-30">
+            <div class="fw-bolder mxm-24">
+                <div class="align-center my-25 fs-34 mfs-24 text-center">Losing Weight <span class="non-break">is
+                        Easy</span></div>
+            </div>
+            <p class="color1 change-text mxm-24 text-center">See how restricting 500 daily calories can impact your
+                body.</p>
+            <div class="body-transformation mt-40">
+                <div class="d-flex">
+                    <div class="mw-50p w-100">
+                        <div class="body-transformation">
+                            <div class="body-trans-header text-center text-darkbg d-flex">
+                                <div class="mw-100p w-50 d-flex justify-content-center intro"><span
+                                        class="valign-m my-a">Do Nothing</span></div>
+                            </div>
+                        </div>
+                        <div class="body-trans-body d-flex bg1">
+                            <div class="w-100 text-center">
+                                <div class="body-trans-frame mb-10"><img class="mh-350"
+                                        src="./assets/img/male/M_20_To_24.png"></div>
+                                <div class="fw-bold mb-5">Body weight</div>
+                                <div class="change-text fw-bold color2">No Change</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mw-50p highlighted bg4 w-100">
+                        <div class="body-trans-header text-center text-darkbg d-flex">
+                            <div class="w-50 d-flex justify-content-center mw-100p intro"><span
+                                    class="valign-m my-a"><span class="fw-bolder">Restrict Calories</span></span></div>
+                        </div>
+                        <div class="body-trans-body d-flex">
+                            <div class="w-100 text-center">
+                                <div class="body-trans-frame mb-10"><img class="mh-350"
+                                        src="./assets/img/male/M_10_To_14.png"></div>
+                                <div class="fw-bold mb-5">Body weight</div>
+                                <div class="theme-color change-text fw-bold">⬇ Decreases ⬇</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- weight loss plan -->
+        <div class="pt-30 ptm-0 pb-30">
+            <div class="checkout-container">
+                <div class="fw-bolder mxm-24">
+                    <div class="align-center my-25 fs-34 mfs-24 text-center"><span>Weight Loss Plan for&nbsp;<span
+                                class="theme-color name">ewef</span></span></div>
+                </div>
+                <div class="plan-list mxm-24">
+                    <ul>
+                        <li class="d-flex align-center border3 br-10 bg1"><i
+                                class="checkout-icon fw-bold theme-color"><img class="p-10"
+                                    src="./assets/img/icons/target.svg"></i>
+                            <div class="w-70">
+                                <div class="fs-20 fw-bolder mb-5"> 121 lbs</div>
+                                <div class="fs-20 fw-bolder d-none"> 10-14% body fat</div>
+                                <div class="">Your Goal</div>
+                            </div>
+                        </li>
+                        <li class="d-flex align-center border3 br-10 bg1"><i
+                                class="checkout-icon fw-bold theme-color"><img class="p-10"
+                                    src="./assets/img/icons/graph-down.svg"></i>
+                            <div class="w-70">
+                                <div class="fs-22 fw-bolder mb-5">1-2 lbs per week</div>
+                                <div class="">Sustainable weight change</div>
+                            </div>
+                        </li>
+                        <li class="d-flex align-center border3 br-10 bg1"><i
+                                class="checkout-icon fw-bold theme-color"><img class="p-10"
+                                    src="./assets/img/icons/range.svg"></i>
+                            <div class="w-70">
+                                <div class="fs-22 fw-bolder mb-5">1363 calories</div>
+                                <div class="">Daily caloric recommendation</div>
+                            </div>
+                        </li>
+                        <li class="d-flex align-center border3 br-10 bg1"><i
+                                class="checkout-icon fw-bold theme-color"><img class="p-10"
+                                    src="./assets/img/icons/more-less.svg"></i>
+                            <div class="w-70">
+                                <div class="fs-22 fw-bolder mb-5"> 500 less calories</div>
+                                <div class="">Per day, to lose weight</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="p-20 bg1 border3 br-10">
+                        <div class="text-left fs-34 w-100 fw-bolder">Our Promise</div>
+                        <div class="text-primary d-flex">
+                            <div class="fs-12 ms-auto my-a pr-20 testimonial-l">
+                                <p class="text-justify">By reducing your daily calorie intake by just 500 calories, you
+                                    can achieve sustainable, long-term weight loss, aligning with the CDC's guidelines
+                                    of 1-2 pounds of weekly weight loss for healthy individuals. Biome Secret unlocks a
+                                    realistic approach to weight management, making it achievable and effective to
+                                    restrict caloric intake. It simplifies the journey towards your target weight and
+                                    general wellbeing.</p>
+                                <p class="text-justify">Weight loss is a journey, but it doesn't have to be hard. One
+                                    day at a time, Biome Secret is there to help.</p><img class="mw-50p mob-d-none"
+                                    src="./assets/img/signature.png">
+                                <div class="mw-100p desk-d-none">
+                                    <div class="d-inline-flex">
+                                        <div class="my-a mw-40p w-100">
+                                            <div class="pr-10"><img class="mw-100p br-10 b2"
+                                                    src="/static/media/doctor2.50f47a0974d9c646adcb.jpg"></div>
+                                        </div>
+                                        <div class="d-flex flex-col my-a pl-20 mw-60p"><img class="mw-50p"
+                                                src="/static/media/signature.15854c8a3e84aa252865.png">
+                                            <div class="fw-bolder fs-12"><i>- Head of Nutrition, <span
+                                                        class="non-break">Biome Secret</span></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex my-a mw-40p mob-d-none">
+                                <div class="">
+                                    <div class="p-10"><img class="mw-100p br-10 b2" src="./assets/img/doctor2.jpg">
+                                    </div>
+                                    <div class="fw-bolder fs-12"><i>- Head of Nutrition, <span class="non-break">Biome
+                                                Secret</span></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-20">
+                        <div class="py-10">
+                            <div class="fw-bolder fs-20">Your plan's goals include helping to: </div>
+                            <div class="d-inline-flex align-center mt-20 pr-15 fs-16">
+                                <div class="circle-check green me-10"></div>Improve sleep
+                            </div>
+                            <div class="d-inline-flex align-center mt-20 pr-15 fs-16">
+                                <div class="circle-check green me-10"></div>Grow muscles
+                            </div>
+                            <div class="d-inline-flex align-center mt-20 pr-15 fs-16">
+                                <div class="circle-check green me-10"></div>Increase Nutrition
+                            </div>
+                            <div class="d-inline-flex align-center mt-20 pr-15 fs-16">
+                                <div class="circle-check green me-10"></div>Balance Vitamins
+                            </div>
+                        </div>
+                        <hr class="mt-10">
+                        <div class="d-flex flex-col">
+                            <div class="d-flex pt-10"><i
+                                    class="checkout-icon fw-bold theme-color me-15 my-a mob-d-none"><img class="p-10"
+                                        src="./assets/img/icons/check-badge.svg"></i>
+                                <div class="valign-m my-a text-center me-15 desk-d-none">
+                                    <div class="change-text fw-bold color3">EASY</div><i
+                                        class="checkout-icon grey my-a"><img class="p-10"
+                                            src="./assets/img/icons/speedo.svg"></i>
+                                </div>
+                                <div class="valign-m my-a me-10">
+                                    <div class="mb-5 fw-bold">Meal Replacement Frequency </div>
+                                    <div class="fs-18 fw-bold theme-color"> 1 time per day </div>
+                                </div>
+                                <div class="valign-m my-a px-20 a-self-end ms-auto text-center me-20 mob-d-none">
+                                    <div class="change-text fw-bold color3">EASY</div><img class="pt-5"
+                                        src="./assets/img/icons/speedo.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="fs-12 color2 text-center">*Based on CDC recommendations for healthy weight change. The CDC
+                        recommends a maximum change no greater than 1-2 pounds per week.</p>
+                </div>
+            </div>
+        </div>
+        <!-- restricting 500 calaries is easy -->
+        <div class="checkout-container pt-30 ptm-0 pb-30">
+            <div class="fw-bolder mxm-24">
+                <div class="align-center my-25 fs-34 mfs-24 text-center">Restricting 500 Calories <span
+                        class="non-break">is Easy</span></div>
+            </div>
+            <p class="change-text mxm-24 pb-20 text-center">Compare these 2 lunch options to see how easy it is to
+                replace bad calories.</p>
+            <div class="body-transformation">
+                <div class="d-flex">
+                    <div class="mw-50p d-flex flex-col bg1">
+                        <div class="body-transformation">
+                            <div class="body-trans-header text-center text-darkbg d-flex">
+                                <div class="mw-100p w-50 d-flex justify-content-center"><span
+                                        class="valign-m my-a">Processed Food Lunch</span></div>
+                            </div>
+                        </div>
+                        <div class="body-trans-body d-flex bg1 my-a">
+                            <div class="my-a">
+                                <div class="text-center valign-m">
+                                    <div class="color2 fw-bold mb-10 valign-t comparison-h">900 Calories Each</div><img
+                                        class="mw-50p" src="./assets/img/food-cutouts/5.png"><img class="mw-50p"
+                                        src="./assets/img/food-cutouts/1.png"><img class="mw-50p"
+                                        src="./assets/img/food-cutouts/2.png"><img class="mw-50p"
+                                        src="./assets/img/food-cutouts/6.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mw-50p highlighted bg4">
+                        <div class="body-trans-header text-center text-darkbg d-flex">
+                            <div class="w-50 d-flex justify-content-center mw-100p"><span class="valign-m my-a"><span
+                                        class="fw-bolder">Biome Secret</span><br>Nutritionally Complete Lunch</span>
+                            </div>
+                        </div>
+                        <div class="body-trans-body d-flex narrow-p">
+                            <div class="my-a">
+                                <div class="text-center valign-m">
+                                    <div class="theme-color fw-bold mb-10 change-text">400 Calories</div><img
+                                        class="mw-100p br-10" src="./assets/img/food-cutouts/chocolate.jpeg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fw-bolder mxm-24 my-10 py-10">
+                    <div class="align-center my-25 fs-28 mfs-24 text-center">Both options make you feel full. But...
+                    </div>
+                </div>
+                <div class="body-trans-body d-flex valign-t br-10 mxm-24 comparison">
+                    <div class="w-50 left bg1 my-a">
+                        <div class="valign-t fs-13">
+                            <div class="d-flex align-center">
+                                <div class="close-circle-icon red me-10"></div>Processed Ingredients
+                            </div>
+                            <div class="d-flex align-center mt-20">
+                                <div class="close-circle-icon red me-10"></div>Food Coma After 1-2 Hours
+                            </div>
+                            <div class="d-flex align-center mt-20">
+                                <div class="close-circle-icon red me-10"></div>High in Sodium &amp; Fats
+                            </div>
+                            <div class="d-flex align-center mt-20">
+                                <div class="close-circle-icon red me-10"></div>Added Sugar
+                            </div>
+                            <div class="d-flex align-center mt-20">
+                                <div class="close-circle-icon red me-10"></div>Low Nutritional Value
+                            </div>
+                            <div class="d-flex align-center mt-20">
+                                <div class="close-circle-icon red me-10"></div>Leads to Weight Gain
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-50 right bg4">
+                        <div class="valign-t fs-13">
+                            <div class="d-flex align-center">
+                                <div class="circle-check green me-10"></div>100% Plant Based
+                            </div>
+                            <div class="d-flex align-center mt-20">
+                                <div class="circle-check green me-10"></div>No Crash After Eating
+                            </div>
+                            <div class="d-flex align-center mt-20">
+                                <div class="circle-check green me-10"></div>29 Vitamins &amp; Minerals
+                            </div>
+                            <div class="d-flex align-center mt-20">
+                                <div class="circle-check green me-10"></div>Zero Added Sugar
+                            </div>
+                            <div class="d-flex align-center mt-20">
+                                <div class="circle-check green me-10"></div>High In Protein &amp; Fiber
+                            </div>
+                            <div class="d-flex align-center mt-20">
+                                <div class="circle-check green me-10"></div>Helps Lose Management
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fw-bolder mxm-24 my-10 py-10">
+                    <div class="align-center my-25 fs-28 mfs-24 text-center">Made with Superfoods <span
+                            class="non-break">that taste great.</span></div>
+                </div>
+                <div class="body-trans-body d-flex mxm-24 comparison bg1">
+                    <div class="w-50 left my-a">
+                        <div class="valign-m">
+                            <div class="color2 fw-bold mb-10 valign-t text-center comparison-h">Why eat this</div><img
+                                class="mw-50p" src="./assets/img/food-cutouts/11.png"><img class="mw-50p"
+                                src="./assets/img/food-cutouts/7.png"><img class="mw-50p"
+                                src="./assets/img/food-cutouts/12.png"><img class="mw-50p"
+                                src="./assets/img/food-cutouts/17.png">
+                        </div>
+                    </div>
+                    <div class="w-50 my-a right bg4">
+                        <div class="valign-m">
+                            <div class="color3 change-text fw-bold mb-10 text-center">When you can eat this</div><img
+                                class="mw-50p" src="./assets/img/food-cutouts/8.png"><img class="mw-50p"
+                                src="./assets/img/food-cutouts/4.png"><img class="mw-50p"
+                                src="./assets/img/food-cutouts/14.png"><img class="mw-50p"
+                                src="./assets/img/food-cutouts/9.png">
+                            <div class="fw-bold fs-13 color5 text-center"> <u>See all nutritional facts</u></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nutritional profile -->
+        <div class="pt-30 ptm-0 pb-30">
+            <div class="checkout-container">
+                <div class="fs-28 mxm-24">
+                    <div class="fw-bolder">
+                        <div class="align-center my-25 fs-34 mfs-24 text-center">Nutritional Profile of <span
+                                class="non-break">Biome Secret</span></div>
+                    </div>
+                    <div class="piechart mt-10 border3 bg4 mb-30">
+                        <p class="change-text mt-10 text-center">Designed specifically for weight loss. <br>Each meal is
+                            packed with 29 vitamins and minerals.</p><img class="mw-100p br-10 pic-rh mt-10"
+                            src="./assets/img/pie-chart.png">
+                        <p class="change-text mt-10 text-center">Proudly made in the United Kingdom.</p>
+                        <hr>
+                        <div class="d-inline-flex fs-16 text-center my-a align-center w-100"><span class="px-10 mx-a">No
+                                Soy</span><svg width="6px" height="6px" fill="var(--accentColor)" viewBox="0 0 100 100"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="50"></circle>
+                            </svg><span class="px-10 mx-a">No Gluten</span><svg width="6px" height="6px"
+                                fill="var(--accentColor)" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="50"></circle>
+                            </svg><span class="px-10 mx-a">No GMO's</span><svg class="mob-d-none" width="6px"
+                                height="6px" fill="var(--accentColor)" viewBox="0 0 100 100"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="50"></circle>
+                            </svg><span class="px-10 mx-a mob-d-none">No Hormones</span><svg width="6px" height="6px"
+                                fill="var(--accentColor)" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="50"></circle>
+                            </svg><span class="px-10 mx-a">No Lactose</span></div>
+                    </div>
+                    <div class="fw-bolder pt-30">
+                        <div class="align-center my-25 fs-34 mfs-24 text-center">Natural Flavor <span
+                                class="non-break">Without Additives</span></div>
+                    </div>
+                    <div class="flavors fs-34 mt-10">
+                        <div class="plan-list fs-14 pb-30">
+                            <ul>
+                                <li class="d-flex align-center border3 br-10 bg4 text-center">
+                                    <div class="w-100">
+                                        <div class="color1 heading-1">Vanilla Caramel</div><img
+                                            class="mw-100p br-10 pic-rh mt-10"
+                                            src="./assets/img/food-cutouts/caramel.jpeg">
+                                    </div>
+                                </li>
+                                <li class="d-flex align-center border3 br-10 bg4 text-center">
+                                    <div class="w-100">
+                                        <div class="color1 heading-1">Chocolate</div><img
+                                            class="mw-100p br-10 pic-rh mt-10"
+                                            src="./assets/img/food-cutouts/chocolate.jpeg">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="align-center my-25 fs-34 mfs-24 text-center">
+                            <div class="fw-bolder">
+                                <div class="align-center mt-30 fs-34 mfs-24 text-center">Your Weight Loss Tool</div>
+                            </div>
+                            <p class="change-text mt-10 text-center">Fast &amp; convenient nutrition for any lifestyle.
+                            </p>
+                        </div>
+                        <div class="plan-list fs-14 mt-20">
+                            <ul>
+                                <li class="d-flex align-center border3 br-10 bg1">
+                                    <div class="w-100 d-flex"><i class="checkout-icon my-a desk-d-none"><img
+                                                class="p-10" src="./assets/img/icons/updown.svg"></i>
+                                        <div class="my-a">
+                                            <div class="fs-24 fw-bolder mb-5">Helps Manage Weight</div>
+                                            <div class="mb-5">You can use it for weight loss or weight gain</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-center border3 br-10 bg1">
+                                    <div class="w-100 d-flex"><i class="checkout-icon my-a desk-d-none"><img
+                                                class="p-10" src="./assets/img/icons/fast.svg"></i>
+                                        <div class="my-a">
+                                            <div class="fs-24 fw-bolder mb-5">Easy To Make</div>
+                                            <div class="mb-5">Ready in 30 seconds</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-center border3 br-10 bg1">
+                                    <div class="w-100 d-flex"><i class="checkout-icon my-a desk-d-none"><img
+                                                class="p-10" src="./assets/img/icons/thumbs-down.svg"></i>
+                                        <div class="my-a">
+                                            <div class="fs-24 fw-bolder mb-5">Free From</div>
+                                            <div class="mb-5">Gluten, GMO's, Lactose, Hormones, Soy, Nuts, Dairy, Added
+                                                Sugars</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-center border3 br-10 bg1">
+                                    <div class="w-100 d-flex"><i class="checkout-icon my-a desk-d-none"><img
+                                                class="p-10" src="./assets/img/icons/heart-check.svg"></i>
+                                        <div class="my-a">
+                                            <div class="fs-24 fw-bolder mb-5">100% Plant Based</div>
+                                            <div class="mb-5">Peas, Avocados, Coconut, Flaxseed, Seaweed, Essential Oils
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-center border3 br-10 bg1">
+                                    <div class="w-100 d-flex"><i class="checkout-icon my-a desk-d-none"><img
+                                                class="p-10" src="./assets/img/icons/complete-nutrition.svg"></i>
+                                        <div class="my-a">
+                                            <div class="fs-24 fw-bolder mb-5">Complete Nutrition</div>
+                                            <div class="mb-5">42g of Fiber, High in Protein, 29 Vitamins &amp; Minerals,
+                                                Superfoods, Digestive Enzymes, Pre &amp; Probiotics</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-center border3 br-10 bg1">
+                                    <div class="w-100 d-flex"><i class="checkout-icon my-a desk-d-none"><img
+                                                class="p-10" src="./assets/img/icons/173-health.svg"></i>
+                                        <div class="my-a">
+                                            <div class="fs-24 fw-bolder mb-5">173 Health Benefits</div>
+                                            <div class="mb-5">Brain Function, Muscles, Energy, Immunity, Hair, Skin,
+                                                Nails</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="stamp-icon text-center">
+                        <a> <img src="./assets/img/icons/icon-shipping.svg"> </a>
+                        <a> <img src="./assets/img/icons/uk-icon.svg"> </a>
+                        <a> <img src="./assets/img/icons/icon-haccp.svg"> </a>
+                        <a> <img src="./assets/img/icons/icon-cgmp.svg"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- controlling Healthy calories -->
+        <div class="checkout-container ptm-0">
+            <div class="fw-bolder mxm-24">
+                <div class="d-flex align-center my-25 fs-34 mfs-24 text-center"><span>Controlling Healthy Calorie Intake
+                        Has <span class="color3 non-break">Never Been Easier!</span></span></div>
+            </div>
+            <p class="change-text text-center mxm-24">Biome Secret makes it easy to manage your weight by helping to
+                restrict your calories, while increasing vital daily nutrition.</p>
+            <div class="youtube-video"><iframe src="https://www.youtube.com/embed/-Pe3x5x8pis?rel=0" height="300px"
+                    width="100%" allowfullscreen=""></iframe></div>
+        </div>
+        <div class="checkout-container mb-50 pt-50 ptm-0">
+            <div class="bg1 d-block align-center br-10 pt-20 pb-10 px-20 goal-graph-frame mxm-24">
+                <div class="heading-1 text-center">Your target weight is achievable in <span class="non-break">3
+                        Recurring Orders</span></div><img class="mw-100p mt-10" src="./assets/img/graph-down.svg">
+                <div class="body-transformation mb-20 px-20 change-text">
+                    <div class="d-flex">
+                        <div class="w-50"><span class="fw-bold">Today:</span> <span class="color3">67 kg</span></div>
+                        <div class="w-50 text-right"><span class="fw-bold">Goal:</span> <span class="color3">60
+                                kg</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-plan">
+            <div class="get-my-plan mb-0"><a href="#get-plan" class="theme-btn" title="Continue"> Get my weight loss
+                    plan<div class="right-arrow"></div></a></div>
+        </div>
+        <!-- high demand  -->
+        <form class="magicPill" style="display: none;">
+            <section class="bg4" id="get-plan">
+                <div class="choose-plan d-flex">
+                    <div class="choose-plan-img"><img src="./assets/img/male/M_10_To_14.png"></div>
+                    <div class="rgt-content mx-a mw-100p">
+                        <div class="choose-your-plan">
+                            <div class="fs-28 fw-bolder mb-20 ta-l-c">Due to high demand we are currently out of stock
+                            </div>
+                            <p class="fs-14"><b>Our factory is working hard to get the inventory back in stock as soon
+                                    as possible.</b><br><br><span class="fs-12"><i>Enter your email to be on the
+                                        priority waiting list.</i></span></p>
+                            <div class="input-field pb-20"><input type="email" placeholder="me@example.com" name="email"
+                                    value="coder221829@gmai.com"></div>
+                            <div class="d-flex"><button class="theme-btn text-darkbg ms-auto" id="paypal-button"
+                                    title="Proceed" type="submit"> NOTIFY ME<div class="right-arrow"></div></button>
+                            </div>
+                            <div class="fs-12 color2 mt-50 mb-20"> Stock is limited and priority will be given to
+                                waitlisted individuals. Register your interest to hold your place in the waitlist.</div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </form>
+        <!-- form 02 -->
+        <section class="bg4" id="get-plan">
+            <div class="choose-plan d-flex">
+                <div class="choose-plan-img"> <img src="./assets/img/male/M_5_To_9.png"> </div>
+                <div class="rgt-content mx-a">
+                    <div class="choose-your-plan" id="choose-your-plan">
+                        <div class="fs-28 fw-bolder mb-20 ta-l-c">Choose the best plan for you</div>
+                        <p class="fs-14"><b>In Stock:</b> <i>Chocolate, Vanilla, Caramel</i><br><br><span
+                                class="fs-12"><i>Flavors are chosen on the order confirmation screen.</i></span></p>
+                        <div class="item"><input type="radio" name="selectPayment" id="1" value="1month"
+                                checked=""><label class="d-flex align-center" for="1">
+                                <div> <span class="fs-18 fw-bold"> 1-MONTH SUPPLY </span>
+                                    <div class="color2 mt-5"> 100 USD </div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="d-flex"> <span class="fs-20 fw-bold me-5">3.23</span> <span>USD</span>
+                                    </div><span class="color2"> per meal </span>
+                                </div>
+                            </label></div>
+                        <div class="item"><input type="radio" name="selectPayment" id="2" value="3month"><label
+                                class="d-flex align-center" for="2"><span class="most-popular">Most Popular</span>
+                                <div> <span class="fs-18 fw-bold"> 2-MONTH SUPPLY </span>
+                                    <div class="color2 mt-5"> 150 USD</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="d-flex"> <span class="fs-20 fw-bold me-5">2.42</span> <span>USD</span>
+                                    </div><span class="color2"> per meal </span>
+                                </div>
+                            </label></div>
+                        <div class="item"><input type="radio" name="selectPayment" id="3" value="6month"><label
+                                class="d-flex align-center" for="3"><span class="monster-plan">Maximum Results
+                                    Typical</span>
+                                <div> <span class="fs-18 fw-bold"> 3-MONTH SUPPLY </span>
+                                    <div class="color2 mt-5"> 200 USD</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="d-flex"> <span class="fs-20 fw-bold me-5">2.15</span> <span>USD</span>
+                                    </div><span class="color2"> per meal </span>
+                                </div>
+                            </label></div>
+                        <div class="d-flex align-start mb-50">
+                            <div class="heart-icon me-15 mt-5"></div>
+                            <div class="ms-10">
+                                <div class="text-primary mb-10 lh-1"> People using plan for 3 months achieve twice as
+                                    many results as for 1 month </div>
+                                <div class="fs-12 color2"> *According to a study by Biome Secret, 2023 </div>
+                            </div>
+                        </div>
+                        <div class="choose-plan-btn">
+                            <button class="theme-btn  text-darkbg" id="paypal-button" onclick="paypalbtn()"
+                                title="Proceed"> Proceed<div class="right-arrow"></div></button>
+                        </div>
+                        <div class="fs-12 color2 mt-50 mb-20"> By continuing, you agree that if you don't cancel at
+                            least 24 hours prior to the end of the current introductory offer period, the subscription
+                            will be automatically extended for a successive renewal period of one-month and at the full
+                            price of 100 USD. To learn more, visit our <a target="_blank" href="../subscription-policy"
+                                class="color2">Subscription Terms</a>.<br>By continuing, I agree with the <a
+                                target="_blank" href="../terms" class="color2">Terms of service</a>, <a target="_blank"
+                                href="../privacy-policy" class="color2">Privacy policy</a>, <a target="_blank"
+                                href="../refund-policy" class="color2">Refund policy</a>, <a target="_blank"
+                                href="../subscription-policy" class="color2">Subscription terms</a>, and <a
+                                target="_blank" href="../cookie-policy" class="color2">Cookie policy</a>.</div>
+                    </div>
+                </div>
+                <div id="paypal-content" style="display: none;">
+                    <div class="paypal-wrapper">
+                        <button class="paypal-close-icon">
+                            <div class="close-icon"></div>
+                        </button>
+                        <div class="tab">
+                            <button class="tablinks active" onclick="tabclicktwo2()">
+                                <div class="paypal-icon"></div>
+                            </button>
+                            <button class="tablinks tablinks-change" onclick="tabclick()"> <span
+                                    class="text-primary fs-18 fw-bold me-5">Card</span>
+                                <div class="apple-icon me-5"></div>
+                                <div class="google-icon"></div>
+                            </button></div>
+                        <div id="paypal" class="tabcontent tabcontent-1" style="display: block;">
+                            <div class="text-center">
+                                <h3 id="chosen-plan" class="">1-MONTH PLAN</h3>
+                                <p id="chosen-price" class="color2">100 USD</p>
+                            </div>
+                            <button id="purchase-paypal" class="paypal-btn mt-20">
+                                <img id="purchase-paypal-logo"
+                                    src="./assets/img/paypal.svg">Buy
+                                Now</button>
+                        </div>
+                        <div id="paypal" class="tabcontent tabcontent-2" style="display: none;" >
+                            <div class="text-center">
+                                <h3 id="chosen-plan" class="">2-MONTH PLAN</h3>
+                                <p id="chosen-price" class="color2">150 USD</p>
+                            </div>
+                            <div class="g-pay d-none"><button> <img
+                                        src="./assets/img/light_gpay.svg"> <img
+                                        src="./assets/img/visa.svg" class="card-logo">
+                                    <span>.... 1420</span> </button></div>
+                            <p class="text-center d-none">-OR-</p>
+                            <form action="#">
+                                <div class="payment-form">
+                                    <div class="credit-card position-relative"><label for="ccnum">Credit or Debit Card
+                                            Number</label><i><img
+                                                src="./assets/img/default_card.svg"></i><input
+                                            id="ccnum" name="cardnumber" placeholder="XXXX-XXXX-XXXX-XXXX"></div>
+                                    <div class="row">
+                                        <div class="col-50"><label for="expmonth">Expiry Date</label><input
+                                                placeholder="MM/YY" id="expmonth" name="expmonth"></div>
+                                        <div class="col-50"><label for="cvv">CVV</label><input name="cvv" id="cvv"
+                                                placeholder="123" maxlength="4" value=""></div>
+                                    </div><button id="purchase-card" type="submit" class="theme-btn" disabled="">
+                                        <div class="lock-iconn me-5 d-none"></div>Pay
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="d-flex payment-logos"><img
+                                    src="./assets/img/amex.svg"><img
+                                    src="./assets/img/discover.svg"><img
+                                    src="./assets/img/master.svg"><img
+                                    src="./assets/img/visa.svg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Money back gurantee -->
+        <div class="page-gradient">
+            <section class="money-back-guarantee mt-50 page-gradient2">
+                <div class="money-back-guarantee-container bg1">
+                    <div class="d-flex">
+                        <div>
+                            <div class="fs-28 fw-bold"> Money-Back Guarantee </div>
+                            <p class="change-text"> We believe that our plan may work for you and you’ll get visible
+                                results in 4 weeks! We are even ready to completely refund you within 30 days after
+                                purchase if you don’t get visible results and can demonstrate that you have followed our
+                                plan. </p>
+                            <p class="change-text"> Find out more about the applicable limitations in our <u><a
+                                        target="_blank" href="../refund-policy"
+                                        class="color5 text-decoration-none">money-back policy</a></u>.</p>
+                        </div><img class="my-a" src="./assets/img/purchase-badge.svg">
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="bg1 pt-40 pb-30">
+                <div class="faq-section">
+                    <div data-szh-adn="" class="szh-accordion">
+                        <div class="heading-2 text-left fw-bolder pb-10 text-center">Any Questions we Haven't Answered?
+                        </div>
+                        <div class="szh-accordion__item szh-accordion__item--status-exited">
+                            <div class="question ">
+
+                                <h3 class="szh-accordion__item-heading question"><button id=":r1: "
+                                        aria-controls=":r1:-" aria-expanded="false" data-szh-adn-btn="" type="button"
+                                        class="szh-accordion__item-btn icon">How do I use Biome Secret powdered
+                                        food?</button>
+                                </h3>
+                            </div>
+                            <div class="answer szh-accordion__item-content ">
+                                <div id=":r1:-" aria-labelledby=":r1:" role="region"
+                                    class="szh-accordion__item-panel answer__text">
+                                    Biome Secret is super easy to use. Simply add Biome Secret, along with water to your
+                                    shaker, and shake!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="szh-accordion__item szh-accordion__item--status-exited">
+                            <div class="question ">
+
+                                <h3 class="szh-accordion__item-heading question"><button id=":r1: "
+                                        aria-controls=":r1:-" aria-expanded="false" data-szh-adn-btn="" type="button"
+                                        class="szh-accordion__item-btn icon">Is Biome Secret a meal
+                                        replacement?</button>
+                                </h3>
+                            </div>
+                            <div class="answer szh-accordion__item-content ">
+                                <div id=":r1:-" aria-labelledby=":r1:" role="region"
+                                    class="szh-accordion__item-panel answer__text">
+                                    While meal replacements may seem similar to Biome Secret Products, they are far from
+                                    it. They are generally marketed and designed to support either weight loss or a
+                                    fitness programme, and they're often low in calories. A two-scoop serving of Biome
+                                    Secret is a nutritionally complete meal, containing 400 calories, a good amount of
+                                    fibre and fats, and a low GI.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="szh-accordion__item szh-accordion__item--status-exited">
+                            <div class="question ">
+
+                                <h3 class="szh-accordion__item-heading question"><button id=":r1: "
+                                        aria-controls=":r1:-" aria-expanded="false" data-szh-adn-btn="" type="button"
+                                        class="szh-accordion__item-btn icon">What does Biome Secret taste like?</button>
+                                </h3>
+                            </div>
+                            <div class="answer szh-accordion__item-content ">
+                                <div id=":r1:-" aria-labelledby=":r1:" role="region"
+                                    class="szh-accordion__item-panel answer__text">
+                                    It has a subtly sweet taste. Based on feedback from 1000's of Biome Secret users, we
+                                    have just 1 popular flavor which reminds many people of a delicate vanilla smoothie.
+                                    It's a crowd pleaser.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="szh-accordion__item szh-accordion__item--status-exited">
+                            <div class="question ">
+
+                                <h3 class="szh-accordion__item-heading question"><button id=":r1: "
+                                        aria-controls=":r1:-" aria-expanded="false" data-szh-adn-btn="" type="button"
+                                        class="szh-accordion__item-btn icon">What are the benefits of the new
+                                        ingredients?</button>
+                                </h3>
+                            </div>
+                            <div class="answer szh-accordion__item-content ">
+                                <div id=":r1:-" aria-labelledby=":r1:" role="region"
+                                    class="szh-accordion__item-panel answer__text">
+                                    Kombucha is a source of B-vitamins, while green tea extract brings catechins, which
+                                    act as antioxidants. Probiotics may have many beneficial effects, particularly in
+                                    relation to gut health.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="szh-accordion__item szh-accordion__item--status-exited">
+                            <div class="question ">
+
+                                <h3 class="szh-accordion__item-heading question"><button id=":r1: "
+                                        aria-controls=":r1:-" aria-expanded="false" data-szh-adn-btn="" type="button"
+                                        class="szh-accordion__item-btn icon">Why have you removed sucralose</button>
+                                </h3>
+                            </div>
+                            <div class="answer szh-accordion__item-content ">
+                                <div id=":r1:-" aria-labelledby=":r1:" role="region"
+                                    class="szh-accordion__item-panel answer__text">
+                                    There is nothing wrong with sucralose. However, we listen to requests from some of
+                                    our Biome Secret users who wanted a flavoured Powder option without sucralose, so
+                                    here you go! Biome Secret is naturally sweetened by stevia and a small amount of
+                                    organic coconut sugar.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="szh-accordion__item szh-accordion__item--status-exited">
+                            <div class="question ">
+
+                                <h3 class="szh-accordion__item-heading question"><button id=":r1: "
+                                        aria-controls=":r1:-" aria-expanded="false" data-szh-adn-btn="" type="button"
+                                        class="szh-accordion__item-btn icon">Can it help me lose weight fast?</button>
+                                </h3>
+                            </div>
+                            <div class="answer szh-accordion__item-content ">
+                                <div id=":r1:-" aria-labelledby=":r1:" role="region"
+                                    class="szh-accordion__item-panel answer__text">
+                                    Biome Secret is food that helps restrict your calorie intake by offering a meal
+                                    replacement that is rich in essential vitamins and minerals. Biome Secret can help
+                                    with making you feel full as it’s high in protein and fibre.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="szh-accordion__item szh-accordion__item--status-exited">
+                            <div class="question ">
+
+                                <h3 class="szh-accordion__item-heading question"><button id=":r1: "
+                                        aria-controls=":r1:-" aria-expanded="false" data-szh-adn-btn="" type="button"
+                                        class="szh-accordion__item-btn icon">What is the shelf life of Biome
+                                        Secret?</button>
+                                </h3>
+                            </div>
+                            <div class="answer szh-accordion__item-content ">
+                                <div id=":r1:-" aria-labelledby=":r1:" role="region"
+                                    class="szh-accordion__item-panel answer__text">
+                                    The shelf life of Biome Secret is 12 months from production date if your pouch is
+                                    unopened and stored in a dry, cool environment, away from direct sunlight. Don’t
+                                    worry about keeping track, there is a best before date printed on the
+                                    pouch.<br><br>It’s 3 months if your pouch is open. Just reseal and store in dry,
+                                    cool environment, away from direct sunlight.<br><br>Once you’ve prepared your Biome
+                                    Secret, keep it refrigerated for 24 hours. You can save more time and make up your
+                                    breakfast the night before, plus it tastes great cold.<br><br>If you’re on the go
+                                    and don’t have a fridge handy, providing the temperature is cool, your prepared
+                                    Biome Secret can stay fresh for a few hours.<br><br>Please note, we try to send out
+                                    product with as long as possible before the best before date to give you enough time
+                                    to consume your Biome Secret, however this does depend on levels of stock. There may
+                                    be some cases where you receive something with 3 months until the date.<br><br>If
+                                    you receive something with less than 3 months, please reach out to us so we can
+                                    help..
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- review section -->
+            <div class="reivews-section">
+                <section class="text-white container3 mx-auto">
+                    <div class="heading-1 text-center mb-30">And Even More</div>
+                    <div class="d-flex" style="align-items: center; justify-content: center;">
+                        <p class="text-center rating"><span>Weight-management complete meal shake</span><span>|</span>
+                            <span class="d-inline-flex">
+                                <div class="star-icon"></div>
+                                <div class="star-icon"></div>
+                                <div class="star-icon"></div>
+                                <div class="star-icon"></div>
+                                <div class="star-icon"></div>
+                            </span>
+                            <span class="me-5">62k</span>
+                            <span class="user2-icon me-0"></span>
+                        </p>
+                    </div>
+
+                    <div class="reivews-slider text-white">
+                        <div class="your-class slick-slider">
+                            <!-- one -->
+                            <div>
+                                <div class="reivews-item">
+                                    <div class="reviews-header">
+                                        <div class="reivews-profile d-flex align-center"><img class="mw-32 br-50"
+                                                src="data:image/jpeg;base64,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"
+                                                alt=""><span>Brooklyn Mitchell</span></div>
+                                    </div>
+                                    <div class="review-body"><span>No more crash after lunch. I'm so
+                                            much more productive and my appetite has completely
+                                            readjusted now with Biome Secret as one of my daily
+                                            meals.</span>
+                                        <div class="d-flex mt-10">
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- two -->
+                            <div>
+                                <div class="reivews-item">
+                                    <div class="reviews-header">
+                                        <div class="reivews-profile d-flex align-center"><img class="mw-32 br-50"
+                                                src="data:image/jpeg;base64,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"
+                                                alt=""><span>Briana Anderson</span></div>
+                                    </div>
+                                    <div class="review-body"><span>I've replaced my crappy lunch
+                                            with
+                                            Biome Secret and started losing weight almost
+                                            immediately.
+                                            Restricting bad calories has been super easy.</span>
+                                        <div class="d-flex mt-10">
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- three -->
+                            <div>
+                                <div class="reivews-item">
+                                    <div class="reviews-header">
+                                        <div class="reivews-profile d-flex align-center"><img class="mw-32 br-50"
+                                                src="data:image/jpeg;base64,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"
+                                                alt=""><span>Madison Taylor</span></div>
+                                    </div>
+                                    <div class="review-body"><span>Helps me shred pounds! I feel
+                                            full
+                                            after Biome Secret shakes, and my hunger cravings don't
+                                            come
+                                            back for much longer than after regular meals.</span>
+                                        <div class="d-flex mt-10">
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- four -->
+                            <div>
+                                <div class="reivews-item">
+                                    <div class="reviews-header">
+                                        <div class="reivews-profile d-flex align-center"><img class="mw-32 br-50"
+                                                src="data:image/jpeg;base64,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"
+                                                alt=""><span>Wyatt Sullivan</span></div>
+                                    </div>
+                                    <div class="review-body"><span>My meal cravings have gone away,
+                                            and
+                                            now I'm on track for my weight loss goal. Without even
+                                            thinking about it, Biome Secret helps me balance my
+                                            nutrition.</span>
+                                        <div class="d-flex mt-10">
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- five -->
+                            <div>
+                                <div class="reivews-item">
+                                    <div class="reviews-header">
+                                        <div class="reivews-profile d-flex align-center"><img class="mw-32 br-50"
+                                                src="data:image/jpeg;base64,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"
+                                                alt=""><span>Kennedy Walker</span></div>
+                                    </div>
+                                    <div class="review-body"><span>Biome Secret has literally been
+                                            my
+                                            secret to weight loss. I've tried both Chocolate and
+                                            Caramel-Vanilla flavors, and it's hard to pick a
+                                            favorite!</span>
+                                        <div class="d-flex mt-10">
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- six -->
+                            <div>
+                                <div class="reivews-item">
+                                    <div class="reviews-header">
+                                        <div class="reivews-profile d-flex align-center"><img class="mw-32 br-50"
+                                                src="data:image/jpeg;base64,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"
+                                                alt=""><span>Caley Thompson</span></div>
+                                    </div>
+                                    <div class="review-body"><span>Weight loss has been so easy with
+                                            1
+                                            daily Biome Secret shake. It helps me control my hunger
+                                            and
+                                            I feel so much more alive compared to just a few weeks
+                                            ago.</span>
+                                        <div class="d-flex mt-10">
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                            <div class="star-icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+            <!-- follow us -->
+            <section class="full-workout-plan d-none">
+                <div class="heading-2 text-center fw-bold d-none">Follow us </div>
+                <p class="color2 fs-18 text-center d-none">to skyrocket your result!</p>
+                <div class="social-icon text-center d-none"> <a href="" aria-label="instagram"> <img
+                            src="/static/media/instagram.f9b617e18e27184963bc3eb1e9eae3cb.svg"> </a> <a href=""
+                        aria-label="Facebook"> <img src="/static/media/facebook.d946f82225c6643ab30c7b27e2cf34f1.svg">
+                    </a> </div>
+            </section>
+            <footer>
+                <div class="w-100 bg1">
+                    <div class="fqa-bar text-center color2 mx-a"> Any questions? We're here to help. </div>
+                </div>
+                <div class="text-center"> <a href="mailto:support@biomesecret.com"
+                        class="text-primary d-flex-center fs-14">
+                        <div class="email-icon me-10"></div>support@biomesecret.com
+                    </a> </div>
+                <p class="footer-container pt-20 color2">*Actor portrayal. Along with a balanced diet and regular
+                    physical activity, a common guideline for healthy weight loss is 1 to 2 pounds per week, which
+                    roughly translates to about 0.5% to 1% of your total body weight if you weigh 200 pounds or more.
+                    This rate of weight loss is considered safe and achievable for most people. This advice is widely
+                    recommended by health organizations, including the Centers for Disease Control and Prevention (CDC).
+                    According to the CDC: "Evidence shows that people who lose weight gradually and steadily (about 1 to
+                    2 pounds per week) are more successful at keeping weight off.</p>
+            </footer>
+        </div>
+
+    </div>
+
+
+    <script>
+        const chooseyourplan = document.querySelector("#choose-your-plan")
+        const paypalcntnt = document.getElementById("paypal-content")
+        const Pypal = document.querySelector(".tabcontent-1")
+        const Pypaltwo = document.querySelector(".tabcontent-2")
+        const Active = document.getElementsByClassName("active")
+        const closebtn = document.querySelector(".paypal-close-icon")
+
+        closebtn.addEventListener("click" , ()=>{
+            paypalcntnt.style.display="none"
+            chooseyourplan.style.display="block"
+        })
+ 
+
+
+        function tabclick() {
+            Pypal.style.display = "none"
+            Pypaltwo.style.display="block"
+            document.querySelector(".tablinks-change").classList.add("active")
+            document.querySelector(".tablinks").classList.remove("active")
+        }
+        function tabclicktwo2() {
+            Pypal.style.display = "block"
+            Pypaltwo.style.display="none"
+            document.querySelector(".tablinks-change").classList.remove("active")
+            document.querySelector(".tablinks").classList.add("active")
+        }
+
+        function paypalbtn() {
+  console.log("paypaltwoclicked")
+            chooseyourplan.style.display = "none"
+            paypalcntnt.style.display = "block"
+        }
+
+    </script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.your-class').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: false,
+                arrows: true,
+                dots: true,
+            });
+        });
+    </script>
+
+
+    <script>
+        const SCZ = document.querySelector(".szh-accordion__item-btn:after")
+        const questions = document.querySelectorAll(".question");
+
+        questions.forEach((element) => {
+            element.addEventListener("click", () => {
+                const nextBox = element.nextElementSibling;
+                const icons = element.querySelector(".icon");
+
+                icons.style.transition = "0.5s linear";
+
+                if (nextBox.classList.contains("active")) {
+                    nextBox.classList.remove("active");
+                    icons.style.transform = "rotate(0deg)";
+                } else {
+                    document
+                        .querySelectorAll(".answer.active")
+                        .forEach((nextBox) => nextBox.classList.remove("active"));
+                    document
+                        .querySelectorAll(".icon")
+                        .forEach((normal) => (normal.style.transform = "rotate(0deg)"));
+                    // SHZ.style.backgroundImage = "url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxzdmcgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPg0KPHBhdGggZD0iTTggMTJIMTZNMjIgMTJDMjIgMTcuNTIyOCAxNy41MjI4IDIyIDEyIDIyQzYuNDc3MTUgMjIgMiAxNy41MjI4IDIgMTJDMiA2LjQ3NzE1IDYuNDc3MTUgMiAxMiAyQzE3LjUyMjggMiAyMiA2LjQ3NzE1IDIyIDEyWiIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPC9zdmc+')";
+                    nextBox.classList.add("active");
+                }
+            });
+        });
+
+
+    </script>
+
+</body>
+
+</html>
